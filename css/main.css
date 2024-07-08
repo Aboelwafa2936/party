@@ -1,0 +1,74 @@
+/* style header section */
+.home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    .overlay{
+        background-color: rgba(218, 23, 23, 0.753);
+    }
+    /* style for the sidebar section */
+    .menu{
+        height: 105vh;
+        left: -10rem;
+        ul{
+            height: 100%;
+            li{
+                a{
+                    transition: 0.5s ease-in;
+                    &:hover{
+                        color: #da1717 !important;
+                    }
+                }
+                
+            }
+        }
+    }
+    .fa-bars{
+        margin: 0 .5rem;
+    }
+    .opened{
+        margin-left: 10rem;
+        margin-right: .5rem;
+    }
+
+}
+
+/* styles for counter section */
+#days , #minutes , #hours , #seconds{
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+/* style for details section */
+[data-details]{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    .overlay{
+        background-color: rgba(218, 23, 23, 0.753);
+    }
+}
+
+
+/* style for social icons */
+.social-icons i{
+    margin: .5rem 0;
+    border: 1px solid #797777;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    transition: 0.5s ease-in;
+    &:hover{
+        background-color: #da1717;
+        color: #fff;
+    }
+}
